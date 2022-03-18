@@ -1,2 +1,1 @@
-# jusquare.github.io
-My personal website
+# My personnal website

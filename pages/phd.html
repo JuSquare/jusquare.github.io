@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html lang="">
+	<head>
+		<title>J.D. Website | Ph.D</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="icon" href="../images/favicon.ico" />
+	</head>
+	<body id="top">
+		<div class="wrapper row1">
+		  <header id="header" class="hoc clear"> 
+			<h1><a href="../index.html">Julien Dupeyroux</a></h1>
+			<p>Ph.D. in Biorobotics - Assistant Professor in AI for Robotics</p>
+		  </header>
+		</div>
+		<div class="wrapper row4">
+		  <nav id="mainav" class="hoc clear"> 
+			<ul class="clear">
+			  <li><a class="drop" href="../index.html">Home</a></li>
+			  <li><a class="drop" href="projects.html">Projects</a></li>
+			  <li><a class="drop" href="communications.html">Communications</a></li>
+			  <li class="active"><a href="phd.html">Ph.D</a></li>
+			  <li><a class="drop" href="curriculum.html">Curriculum Vitae</a></li>
+		  </nav>
+		</div>
+		<div class="wrapper row3">
+		  <main class="hoc container clear"> 
+			<!-- main body -->
+			<div class="content">
+	
+				<img class="imgr borderedbox inspace-5" src="../images/Cataglyphis.JPG" alt="" title="Cataglyphis fortis - Credits: Rüdiger Wehner">
+
+				<h2>Abstract</h2>
+
+				<p>
+					The aim of my Ph.D. research was to build a robotic artifact mimicking biological functions identified in foraging insects like desert ants. 
+					These functions comprise the acquisition and processing of visual information, and relative navigation, well-known as the insects' path 
+					integrator. All together, these functions allow a six-legged walking robot, called <b>AntBot</b> (see the video below), to autonomously navigate 
+					in an unknown outdoor environment, just like desert ants Cataglyphis do. Autonomous navigation without GPS and localization were 
+					at the core of the of my research. As a Bioroboticist, my starting point was to figure out that this technological challenge is 
+					already solved by desert ants which are able to keep tracking their position with respect to the nest entrance while foraging for food over 
+					several hundred meters, and then return to the nest following a straight-forward path. This outstanding behavior has been reproduced on-board the 
+					AntBot robot, thus confirming hypotheses formulated years ago by entomologists, while providing us with minimalist, yet robust, outdoor-autonomous 
+					navigation system that could serve as a backup system in case of failure with conventional systems.
+				</p>
+
+				<p>
+					Robotics implementation required transposition of these biological functions into mathematical equations and electronic realizations. In that 
+					respect, a novel celestial compass was developed to mimic the dorsal rim area (DRA) of insects' compound eyes. Photoreceptors in the DRA are known 
+					to be sensitive to the polarization state of the skylight in the ultraviolet (UV) range, and are used to estimate the insect's orientation. 
+					AntBot's celestial compass is composed of two UV-sensitive photodiodes topped with rotating linear polarizers. A novel algorithm was proposed to 
+					estimate the robot's heading with a final accuracy of 0.4°, with strong resilience towards the environmental conditions (UV index, cloud 
+					cover, canopies). Furthermore, AntBot was endowed with a mathematical model for the desert ants' path integrator. This model is highly computationally 
+					efficient and is therefore biologically plausible. Outdoor experiments revealed AntBot's ability to reach centimeter accuracy. These outstanding 
+					results are meant to drive entomologists' attention on the high efficiency of a navigation strategy solely based on path integration.
+				</p>
+				
+				<p>
+					The general purpose of Biorobotics is twofold: (i) to assess the operational aspect of the knowledge extracted from the observation of the living 
+					world by means of robotic implementation and testing in the same environmental conditions as its living model, and (ii) emerge new solution 
+					techniques for seemingly complex technological challenges. This approach allows to investigate on biological models beyond simulations, by exposing 
+					robots to natural hazard (light changes, temperature, cloud cover). At the crossroads between biology and robotics, the AntBot robot is the very 
+					first open-source hexapod platform equipped with minimalist visual sensors mimicking the compound eye of insects, and dedicated to testing biological 
+					models in real environments.
+				</p>
+
+				<div class="videoWrapper">
+					<iframe src="https://www.youtube.com/embed/MDWShtqXxyY" frameborder="0" allowfullscreen></iframe>
+					<!-- <figcaption>A robot that thinks like an ant - CNRS</figcaption> -->
+					<!-- width="560" height="315"  -->
+				</div>
+
+				<p><br></p>
+
+				<h2>VivaTechnology - Paris May 16-18, 2019</h2>
+
+				<p>
+					AntBot has been exhibited at the <a href="https://vivatechnology.com/">VivaTechnology</a> exhibition in Paris from May 16 to 18, 2019, at EDF's invitation 
+					(French electric utility company). Demos were performed during these three days on the 
+					<a href="https://www.edf.fr/start-up/edf-pulse/actualites/edf-partenaire-salon-viva-technology">Robot Park</a>, including interviews with the French Minister 
+					of the Armed Forces Florence Parly, French Minister of the Economy and Finance Bruno Le Maire, and the French Secretary of State for the Digital Economy Cédric O. <br>
+				</p>
+
+				<div class=imageWrapper>
+					<img src="../images/VivaTech.jpg";/>
+				</div>
+
+
+				<h2>Publications (selected)</h2>
+
+				<p STYLE="padding:0 0 0 40px;">
+					[11] <a href="https://ieeexplore.ieee.org/abstract/document/9183091">Insect-inspired omnidirectional vision for autonomous localization on-board a hexapod robot</a>. <br>Dupeyroux, J., Lapalus, S., Brodoline, I., Viollet, S., & Serres, J. R. (2020, September). <br>In <b>28th Mediterranean Conference on Control and Automation MED 2020</b> (p. 893-898). IEEE.<br>
+					[10] <a href="https://ieeexplore.ieee.org/abstract/document/9183367">Bio-inspired celestial compass yields new opportunities for urban localization</a>. <br>Dupeyroux, J., Viollet, S., & Serres, J. R. (2020, September). <br>In <b>28th Mediterranean Conference on Control and Automation MED 2020</b> (p. 881-886). IEEE.<br>
+					[9] <a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=FR&NR=3086088A1&KC=A1&FT=D&ND=1&date=20200320&DB=&locale=en_EP#">Dispositif de détection du cap d'un véhicule par détection de photons polarisés linéairement</a>. <br>Dupeyroux, J., Monnoyer, J., Serres, J., & Viollet, S. (2020). <br> Patent no. FR3086088.<br>
+					[8] <a href="http://robotics.sciencemag.org/content/4/27/eaau0307">AntBot: A six-legged walking robot able to home like desert ants in outdoor environments</a>. <br>Dupeyroux, J., Serres, J. R., & Viollet, S. (2019). <br><b>Science Robotics</b>, 4(27), eaau0307.<br>
+					[7] <a href="https://www.sciencedirect.com/science/article/pii/S092188901830263X">An ant-inspired celestial compass applied to autonomous outdoor robot navigation</a>. <br>Dupeyroux, J., Viollet, S., & Serres, J. R. (2019). <br><b>Robotics and Autonomous Systems</b>, 117, 40-56.<br>
+					[6] <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2018.0878">Polarized skylight-based heading measurements: a bio-inspired approach</a>. <br>Dupeyroux, J., Viollet, S., & Serres, J. R. (2019). <br><b>Journal of the Royal Society Interface</b>, 16(150), 20180878.<br>
+					[5] <a href="https://link.springer.com/chapter/10.1007/978-3-319-95972-6_16">A hexapod walking robot mimicking navigation strategies of desert ants Cataglyphis</a>. <br>Dupeyroux, J., Serres, J., & Viollet, S. (2018, July). <br>In <b>Conference on Biomimetic and Biohybrid Systems</b> (pp. 145-156). Springer, Cham.<br>
+					[4] <a href="https://ieeexplore.ieee.org/abstract/document/8351433">M²APix: a bio-inspired auto-adaptive visual sensor for robust ground height estimation</a>. <br>Dupeyroux, J., Boutin, V., Serres, J. R., Perrinet, L. U., & Viollet, S. (2018, May). <br>In 2018 <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b> (pp. 1-4). IEEE.<br>
+					[3] <a href="https://ieeexplore.ieee.org/abstract/document/8206183">A novel insect-inspired optical compass sensor for a hexapod walking robot</a>. <br>Dupeyroux, J., Diperi, J., Boyron, M., Viollet, S., & Serres, J. (2017, September). <br>In 2017 <b>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</b> (pp. 3439-3445). IEEE.<br>
+					[2] <a href="https://ieeexplore.ieee.org/abstract/document/8098680">A bio-inspired celestial compass applied to an ant-inspired robot for autonomous navigation</a>. <br>Dupeyroux, J., Diperi, J., Boyron, M., Viollet, S., & Serres, J. (2017, September). <br>In 2017 <b>IEEE European Conference on Mobile Robots (ECMR)</b> (pp. 1-6). IEEE.<br>
+					[1] <a href="https://hal-amu.archives-ouvertes.fr/hal-01643176/">Hexabot: a small 3D-printed six-legged walking robot designed for desert ant-like navigation tasks</a>. <br>Dupeyroux, J., Passault, G., Ruffier, F., Viollet, S., & Serres, J. (2017, July). <br>In 2017 <b>20th IFAC World Congress</b> (pp. 1-4).
+				</p>
+
+
+
+			</div>
+			<!-- / main body -->
+			<div class="clear"></div>
+		  </main>
+		</div>
+		<div class="wrapper row4">
+		  <footer id="footer" class="hoc clear"> 
+			<div class="one_third first">
+			  <h6 class="heading">Mailing information</h6>
+			  <ul class="nospace btmspace-30 linklist contact">
+				<li><i class="fa fa-map-marker"></i>
+				  <address>
+				  Delft University of Technology
+				  </address>
+				  <address>
+				  Faculty of Aerospace Engineering
+				  </address>
+				  <address>
+				  Department Control and Operations
+				  </address>
+				  <address>
+				  Section Control and Simulation
+				  </address>
+				  <address>
+				  Micro Air Vehicle Laboratory
+				  </address>
+				  <address>
+				  Kluyverweg 1
+				  </address>
+				  <address>
+				  2629HS Delft, The Netherlands
+				  </address>
+				</li>
+				<li><i class="fa fa-envelope-o"></i> j.j.g.dupeyroux@tudelft.nl</li>
+			  </ul>
+			  <ul class="faico clear">
+				<li><a class="faicon-linkedin" href="https://www.linkedin.com/in/julien-dupeyroux-12a66a8a/"><img src="../images/linkedin.png"></a></li>
+				<li><a class="faicon-research-gate" href="https://www.researchgate.net/profile/Dupeyroux_Julien"><img src="../images/researchgate.ico"></a></li>
+				<li><a class="faicon-orcid" href="https://orcid.org/0000-0002-7414-5021"><img src="../images/orcid.png"></a></li>
+				<li><a class="faicon-publon" href="https://publons.com/researcher/3639687/julien-dupeyroux/"><img src="../images/publon.png"></a></li>
+				<li><a class="faicon-thingiverse" href="https://www.thingiverse.com/JuSquare/about"><img src="../images/thingiverse.jpg"></a></li>
+			  </ul>
+			</div>
+		  </footer>
+		</div>
+		<div class="wrapper row5">
+		  <div id="copyright" class="hoc clear"> 
+			<p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="#">Julien Dupeyroux</a></p>
+		  </div>
+		</div>
+		<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+		<!-- JAVASCRIPTS -->
+		<script src="../layout/scripts/jquery.min.js"></script>
+		<script src="../layout/scripts/jquery.backtotop.js"></script>
+		<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+	</body>
+</html>
